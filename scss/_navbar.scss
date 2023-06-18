@@ -1,0 +1,95 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0 3rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.navbar-nav button{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.nav-item a{
+    font-size: 0.8rem;
+}
+.fullDrop .dropdown:hover>.dropdown-menu{
+    display: block;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.fullDrop .dropdown:hover>.dropdown-menu li a{
+    color: black;
+    font-size: 0.9rem;
+}
+.fullDrop .dropdown:hover>.dropdown-menu h4{
+    color: black;
+    background-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    border-top: 5px solid rgb(189, 38, 38);
+}
+.dropdown:hover>.dropdown-menu li {
+    margin: 10px 5px;
+}
+.card{
+    margin: 1rem;
+}
+.card img{
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form button{
+    height: 35px;
+    width: 100px;
+}
+#languages{
+    display: flex;
+    justify-content: end;
+}
+.dropp .dropdown:hover>.dropdown-menu{
+    margin: 1px -120px;
+}
+
+.searchBox {
+    background: transparent;
+    width: 220px;
+    height: 35px;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-right: 0.6rem;
+}
+.searchBox img {
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.searchBox input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    color: #fff;
+}

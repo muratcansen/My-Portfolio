@@ -1,0 +1,52 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    background: #2b2a29;
+}
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 5%;
+}
+.aboutContent h3 {
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.aboutCardList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutCard {
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.aboutCard:hover {
+    border: 3px solid #646666;
+}
+.aboutCardImage {
+    width: 700px;
+    height: fit-content;
+}
+.threeCard{
+    width: 450px;
+    height: fit-content;
+}
+
+.absoluteImage {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    width: 200px;
+    height: 95px;
+}
